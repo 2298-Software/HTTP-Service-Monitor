@@ -1,0 +1,5 @@
+{
+  "batch_size": 100,
+  "reload_seconds": 2400,
+  "sleep_seconds": 10
+}
