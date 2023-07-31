@@ -54,8 +54,8 @@ load balancer, etc)
 ## Quick Start
 
 ```shell
-https://github.com/2298-Software/HTTP-Service-Monitor.git
-cd service-monitor
+git clone https://github.com/2298-Software/HTTP-Service-Monitor.git
+cd HTTP-Service-Monitor
 docker build -t service-monitor:latest .
 docker container run --name service-monitor -d service-monitor:latest
 ```
