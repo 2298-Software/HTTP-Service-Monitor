@@ -1,5 +1,6 @@
 # Dockerize Service Latency Monitor
 
+## Please see this article for more information and other examples: https://www.2298-software.com/dockerized-service-monitor.html
 It is important to monitor and log the uptime and latency of services.  This will allow us to see latency over time, be proactive by detecting and fixing issues before they happen, and determine if an update or new release has degraded service.
 
 Have you ever had users report "slowness," and you can't find any issue while looking through the logs?  Maybe the version of Java was updated, and you would like to know if it impacted service response times?  Maybe a new version of your API was deployed; how do you know if it's faster/slower than the previous version?  You need a service monitor if you answered yes to any of these.  There are out-of-the-box tools and services to do this, but if you want ultimate control, then write it yourself...besides who wants to run somebody else's code when you can write your own?
